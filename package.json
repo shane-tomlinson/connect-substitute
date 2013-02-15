@@ -1,0 +1,28 @@
+{
+  "Author": "Shane Tomlinson <shane@shanetomlinson.com> (https://shanetomlinson.com)",
+  "name": "connect-substitute",
+  "description": "A simple Connect middleware to perform dynamic text substitution on served resources",
+  "keywords": ["connect", "middleware"],
+  "homepage": "https://github.com/shane-tomlinson/connect-substitute",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shane-tomlinson/connect-substitute.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shane-tomlinson/connect-substitute/issues"
+  },
+  "version": "0.0.1-dev1",
+  "engines": {
+    "node": ">= 0.4.7"
+  },
+  "main": "index",
+  "dependencies": {
+    "postprocess": "0.2.4"
+  },
+  "devDependencies": {
+    "nodeunit": ">=0.6.4"
+  },
+  "scripts": {
+    "test": "nodeunit test"
+  }
+}
