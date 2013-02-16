@@ -23,7 +23,7 @@ A middleware to perform dynamic text substitution on served resources. Useful to
 The substitution middleware must be added *before* other middlewares that serve resources, including static middleware.
 
 ## Credits:
-This is an *extremely* thin wrapper around [Lloyd Hilaiel's](https://github.com/lloyd/) [connect-postprocess](https://github.com/lloyd/connect-postprocess). He is the brains behind it, I only added a slightly more restrictive but simpler front end.
+This is an *extremely* thin wrapper around [Lloyd Hilaiel's](https://github.com/lloyd/) [connect-postprocess](https://github.com/lloyd/connect-postprocess). He is the brains behind it, I only added a slightly more restrictive but simpler API.
 
 ## Author:
 * Shane Tomlinson
