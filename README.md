@@ -25,6 +25,8 @@ The substitution middleware must be added *before* other middlewares that serve 
 ## Credits:
 This is an *extremely* thin wrapper around [Lloyd Hilaiel's](https://github.com/lloyd/) [connect-postprocess](https://github.com/lloyd/connect-postprocess). He is the brains behind it, I only added a slightly more restrictive but simpler API.
 
+## Build Status
+[![Build Status](https://secure.travis-ci.org/shane-tomlinson/connect-substitute.png?branch=master)](https://github.com/shane-tomlinson/connect-substitute)
 ## Author:
 * Shane Tomlinson
 * shane@shanetomlinson.com
