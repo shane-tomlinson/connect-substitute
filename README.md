@@ -1,6 +1,6 @@
 # connect-substitute
 
-A middleware to perform dynamic text substitution on served resources.
+A middleware to perform dynamic text substitution on served resources. Useful to automatically replace URLs within resources depending on whether a server is running in dev or production mode.
 
 ## Usage
 1. Include connect-substitute in a node module.
@@ -20,8 +20,10 @@ A middleware to perform dynamic text substitution on served resources.
 `from` is the text to be changed.
 `to` is what you want to change `from` to.
 
+The substitution middleware must be added *before* other middlewares that serve resources, including static middleware.
+
 ## Credits:
-[Lloyd Hilaiel](https://github.com/lloyd/) wrote the original, which is part of the [Mozilla Persona/BrowserID](https://github.com/mozilla/browserid/) repo.
+This is an *extremely* thin wrapper around [Lloyd Hilaiel's](https://github.com/lloyd/) [connect-postprocess](https://github.com/lloyd/connect-postprocess). He is the brains behind it, I only added a slightly more restrictive but simpler front end.
 
 ## Author:
 * Shane Tomlinson

@@ -20,6 +20,7 @@
     "postprocess": "0.2.4"
   },
   "devDependencies": {
+    "connect": "2.7.2",
     "nodeunit": ">=0.6.4"
   },
   "scripts": {
