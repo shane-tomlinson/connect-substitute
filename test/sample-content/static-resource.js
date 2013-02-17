@@ -4,3 +4,6 @@
 
 // connect-substitute will insert a dev before shanetomlinson
 window.urlToReplace = "http://shanetomlinson.com";
+
+// it must replace both
+window.secondURL = "http://shanetomlinson.com";
